@@ -129,6 +129,8 @@ endif()
 #add_dependencies(Discregrid
 #)
 
+target_include_directories(Discregrid PUBLIC include)
+
 # Set link libraries.
 target_link_libraries(Discregrid
 )
